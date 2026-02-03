@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đèn kéo quân</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .lantern-wrapper {
+            perspective: 1000px;
+            display: flex;
+            justify-content: center;
+            margin-top: 80px;
+        }
+
+        .lantern {
+            width: 300px;
+            height: 300px;
+            position: relative;
+            transform-style: preserve-3d;
+        }
+
+        .lantern img {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            left: 50%;
+            top: 50%;
+            transform-style: preserve-3d;
+            transform-origin: center;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Trang chủ</a>
+    <a href="about.html">Giới thiệu</a>
+    <a href="contact.html">Liên hệ</a>
+</nav>
+
+<section style="text-align:center;">
+    <h2>ĐÈN KÉO QUÂN</h2>
+</section>
+
+<div class="lantern-wrapper">
+    <div class="lantern" id="lantern">
+        <img src="images/l1.jpg">
+        <img src="images/l2.jpg">
+        <img src="images/l3.jpg">
+        <img src="images/l4.jpg">
+        <img src="images/l5.jpg">
+        <img src="images/l6.jpg">
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
